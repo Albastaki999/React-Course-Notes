@@ -1,12 +1,10 @@
-import React from "react";
 import Header from "./components/Header";
 
 const App = () => {
-  let name = "Rashid";
   return (
     <div className="container">
-      <Header />
-      <Header />
+      <Header color2="red" />
+      <Header color1="blue" color2="brown" />
     </div>
   );
 };

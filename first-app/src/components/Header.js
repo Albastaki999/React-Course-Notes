@@ -1,11 +1,17 @@
-import React from 'react'
+const Header = ({ color1 = "red", color2 }) => {
+  // Empty Fragment
+  // return (
+  //   <>
+  //     <div>Hello</div>
+  //     <div>Hi</div>
+  //   </>
+  // );
 
-const Header = () => {
   return (
     <div>
-      This is a header 123
+      This is a header with primary color {color1} and secondary color {color2}
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
