@@ -7,7 +7,8 @@ const Counter = () => {
   // whenever count changes, this component is re-rendered
   // useState is a built-in hook provided by react
   // Hooks allow us to use react's features in our components
-  const [count, setCount] = useState(1);
+  const [count, setCount] 
+  = useState(1);
 
   console.log("Counter");
 
