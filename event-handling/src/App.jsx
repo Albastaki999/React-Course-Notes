@@ -47,7 +47,7 @@ function App() {
         >
           Click me
         </div> */}
-        <div className="flex flex-col gap-1 bg-gray-800 w-[200px] text-gray-50">
+        <div className="flex flex-col gap-1 bg-gray-800 w-[200px] text-gray-50 border-l border-l-gray-500">
           {arr.map((elem) => (
             <div className="opacity-75 hover:opacity-100 hover:border-l-gray-50 cursor-pointer transition-all duration-300 border border-gray-800 p-2">{elem}</div>
           ))}
