@@ -69,6 +69,7 @@ function App() {
   const NotFound = () => {
     return <div className="text-[72px]">404</div>;
   };
+  
   const Navbar = () => {
     return (
       <div className="w-full h-full">
